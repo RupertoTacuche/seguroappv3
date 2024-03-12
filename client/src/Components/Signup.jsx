@@ -1,9 +1,11 @@
 import React from 'react'
+import '../App.css'
 
 const Signup = () => {
   return (
     <div className='sign-up-container'>
         <form className='sign-up-form'>
+            <h2>Sign Up</h2>
             <label htmlFor = "username">Username:</label>
             <input type="text" placeholder='Username'/>
 
